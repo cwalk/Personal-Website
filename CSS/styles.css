@@ -1,3 +1,21 @@
+#headerNav {
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	border-bottom:none;
+}
+
+#headerNav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+}
+
+#headerNav li {
+	margin: 0px;
+	display:inline-block;
+}
+
 h1 {
     color: green;
 }
@@ -6,13 +24,31 @@ body{
     margin:0;
     width:100%;
     color: black;
+    text-align: center;
  }
 
 footer {
     color:#db8b44;
 }
 
+#footerNav {
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	border-bottom:none;
+}
+
+#footerNav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+}
+
+#footerNav li {
+	margin: 0px;
+	display:inline-block;
+}
+
 p {
     color: red;
 }
-
