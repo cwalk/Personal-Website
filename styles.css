@@ -194,6 +194,7 @@ nav li a:hover
 	margin-bottom: 0;
 	font-size: 40px;
 	text-align: center;
+	color: #DFC24A;
 }
 
 .project
@@ -225,6 +226,7 @@ footer
 	overflow: hidden;
 	background-color: rgb(29,114,114);
 	position: relative;
+	margin: 0 auto;
 }
 
 footer ul
@@ -265,6 +267,7 @@ p.left
 p.right
 {
 	float: right;
+	padding-left: 10px;
 	padding-right: 30px;
 	margin-bottom: 0;
 }
@@ -280,10 +283,4 @@ ul
 {
 	margin: 0;
 	padding: 0;
-}
-
-p.right
-{
-	float: right;
-	margin-bottom: 0px;
 }
