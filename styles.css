@@ -65,8 +65,6 @@ nav li a:hover
 	float: left;
 	width: 300px;
 	border-radius: 300px;
-	/*border: 2px solid black;
-	box-shadow: 5px 5px 0 0 rgba(0,0,0,0.15);*/
 	display: inline-block;
 	margin-right: 50px;
 }
@@ -207,7 +205,6 @@ nav li a:hover
 	border: 2px solid white;
 	border-radius: 10px;
 	margin: 40px;
-	/*min-width: 300px;*/
 	padding: 5px;
 }
 
@@ -258,18 +255,18 @@ footer img
 	float: left;
 }
 
-p.left
+p.email
 {
 	float: left;
 	padding-left: 10px;
+	/*margin-bottom: 0;*/
 }
 
-p.right
+p.copyright
 {
-	float: right;
+	float: left;
 	padding-left: 10px;
-	padding-right: 30px;
-	margin-bottom: 0;
+	/*margin-bottom: 0;*/
 }
 
 footer a
@@ -283,4 +280,96 @@ ul
 {
 	margin: 0;
 	padding: 0;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1125px) {
+	/*Make projects go to 2 per page*/
+	.project
+	{
+		max-width: 49%;
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width : 1002px) {
+	/*Fix footer*/
+	p.email
+	{
+		float: left;
+	}
+	p.copyright
+	{
+		float: right;
+		padding-right: 10px;
+	}
+	footer ul
+	{
+		margin: 0 auto;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 939px) {
+	.project
+	{
+		max-width: 49%;
+		width: 38%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 800px) {
+	/*Make projects down to 1 per page and Make halfdiv go to 100%*/
+	.about p
+	{
+		width: 100%;
+	}
+	#workSchool
+	{
+		width: 100%;
+	}
+	.halfdiv
+	{
+		width: 100%;
+	}
+	.project
+	{
+		max-width: 100%;
+		width: 75%;
+	}
+}
+
+ @media only screen and (max-width : 598px) {
+	/*Fix footer*/
+	p.email
+	{
+		float: left;
+	}
+	p.copyright
+	{
+		float: left;
+	}
+	footer ul
+	{
+		float: left;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.project
+	{
+		max-width: 100%;
+		width: 65%;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .project
+	{
+		max-width: 100%;
+		width: 60%;
+	}
 }
