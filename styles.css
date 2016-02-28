@@ -67,6 +67,7 @@ nav li a:hover
 	border-radius: 300px;
 	display: inline-block;
 	margin-right: 50px;
+	margin-bottom: 20px;
 }
 
 .about h1
@@ -332,11 +333,22 @@ ul
 	.halfdiv
 	{
 		width: 100%;
+		padding: 20px 0px;
 	}
 	.project
 	{
 		max-width: 100%;
 		width: 75%;
+		margin-left: 80px
+	}
+}
+
+@media only screen and (max-width: 725px) {
+	.project
+	{
+		max-width: 100%;
+		width: 75%;
+		margin-left: 70px
 	}
 }
 
@@ -354,6 +366,17 @@ ul
 	{
 		float: left;
 	}
+	.project
+	{
+		margin-left: 60px
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.project
+	{
+		margin-left: 50px
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -361,7 +384,7 @@ ul
 	.project
 	{
 		max-width: 100%;
-		width: 65%;
+		width: 75%;
 	}
 }
 
@@ -370,6 +393,6 @@ ul
     .project
 	{
 		max-width: 100%;
-		width: 60%;
+		width: 75%;
 	}
 }
