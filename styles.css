@@ -210,7 +210,7 @@ nav li a:hover
 	padding: 5px;
 }
 
-.project p
+.project p, a
 {
 	color: #DFC24A;
 }
