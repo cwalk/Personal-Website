@@ -16,4 +16,4 @@ Open the index.html file in a browser. This highlights some background informati
 
 ## YouTube
 
-YouTube:
+YouTube: https://www.youtube.com/watch?v=kIO9jzDrpEs
