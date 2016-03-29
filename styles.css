@@ -210,11 +210,24 @@ nav li a:hover
 	padding: 5px;
 }
 
-.project p, a
+.project a
 {
 	color: #DFC24A;
 }
 
+p.projectTitle 
+{
+	color: #DFC24A;
+}
+
+p.long 
+{
+	display: none;
+}
+p.short 
+{
+	display: block;
+}
 
 /* Footer Styles */
 footer
@@ -341,6 +354,14 @@ ul
 		max-width: 100%;
 		width: 75%;
 		margin-left: 80px
+	}
+	p.long 
+	{
+		display: block;
+	}
+	p.short 
+	{
+		display: none;
 	}
 }
 
