@@ -285,7 +285,7 @@ ul
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1125px) {
+@media only screen and (max-width : 1127px) {
 	/*Make projects go to 2 per page*/
 	.project
 	{
