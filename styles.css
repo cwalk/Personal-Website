@@ -196,6 +196,35 @@ nav li a:hover
 	text-align: center;
 	color: #DFC24A;
 }
+#portfolio-one-liner
+{
+	margin: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.button-group {
+	margin: 20px;
+}
+
+.button.is-checked, .button.is-selected {
+    color: rgb(29,114,114); /*color: white;*/
+	background-color: #DFC24A; /*background-color: #19F;*/
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    background-image: linear-gradient( hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.1) );
+	border-color: #222;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    cursor: pointer;
+	color: #DFC24A;
+	background-color: rgb(29,114,114); /*background-color: #F8F8F8;*/
+}
 
 .project
 {
